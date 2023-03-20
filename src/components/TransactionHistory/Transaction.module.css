@@ -1,0 +1,27 @@
+.transaction__history {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.transaction__head {
+  font-size: 30px;
+
+  color: #ffffff;
+  background-color: #9bd7ff;
+}
+
+.transaction__headTitle {
+  padding: 30px 150px;
+}
+
+.transaction__tr {
+  background-color: #ffffff;
+}
+
+.transaction__tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+.transaction__bodyTitle {
+  padding: 30px 150px;
+}
