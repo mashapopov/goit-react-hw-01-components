@@ -7,9 +7,12 @@ export const App = () => {
         height: '100vh',
         display: 'flex',
         justifyContent: 'center',
+        // flexDirection: 'column',
         alignItems: 'center',
         fontSize: 40,
+        padding: '100px',
         color: '#010101',
+        // backgroundColor: 'rgb(216, 222, 228',
       }}
     >
       <Profile

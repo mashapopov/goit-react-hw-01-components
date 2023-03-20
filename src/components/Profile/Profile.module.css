@@ -2,12 +2,22 @@
   color: rgb(174, 181, 187);
   background-color: #ffffff;
 
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-radius: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-radius: 15px;
   overflow: hidden;
+  box-shadow: 2px 2px rgb(216, 222, 228), -0.3em 0 0.4em rgb(216, 222, 228);
 }
-
+:hover.description {
+  background-color: beige;
+  transition-property: background-color;
+  transition-duration: 2s;
+}
+:hover.stats li {
+  background-color: beige;
+  transition-property: background-color;
+  transition-duration: 2s;
+}
 .description {
   display: flex;
   flex-direction: column;
