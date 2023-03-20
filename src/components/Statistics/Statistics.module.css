@@ -1,0 +1,35 @@
+.statistics {
+  width: 620px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+:hover .statistics {
+  background-color: beige;
+  transition-property: background-color;
+  transition-duration: 2s;
+}
+
+.title {
+  padding: 40px 50px;
+
+  font-size: 40px;
+  text-align: center;
+}
+
+.stat__list {
+  display: flex;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.label {
+  font-size: 25px;
+}
